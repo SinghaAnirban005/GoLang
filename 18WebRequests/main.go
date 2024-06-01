@@ -18,7 +18,7 @@ func main() {
 	}
 
 	fmt.Printf("Response is of type %T\n", response)
-
+	// It is our responsibility to close the request
 	defer response.Body.Close()
 
 	databytes, err := ioutil.ReadAll(response.Body)
