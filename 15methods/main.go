@@ -7,7 +7,7 @@ func main() {
 
 	anirban := User{"Anirban", "anirban@gamil.com", true, 12}
 	fmt.Println(anirban)
-
+             
 	fmt.Printf("anirban's details are: %+v\n", anirban)
 
 	fmt.Printf("Name of user is %v\n", anirban.Name)

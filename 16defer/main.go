@@ -10,7 +10,7 @@ func main() {
 
 }
 
-// Based on LIFO principle
+// Based on LIFO principle (Stack) what defer does is it puts the line of code just before the end of block of code
 
 func myDefer() {
 	for i := 0; i < 5; i++ {
